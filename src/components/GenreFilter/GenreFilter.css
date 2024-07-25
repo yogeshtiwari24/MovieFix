@@ -1,49 +1,48 @@
 .genres {
-    overflow: hidden;
-    max-width: 1380px;
-    margin: 0 auto;
-    padding: 0px 10px;
-    width: 100%;
-
+	overflow: hidden;
+	max-width: 1380px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	width: 100%;
 }
 
 .genres ul {
-    display: flex;
-    overflow-x: scroll;
-    flex-wrap: nowrap;
-    gap: 0px 15px;
+	display: flex;
+	overflow-x: scroll;
+	flex-wrap: nowrap;
+	gap: 0px 15px;
 }
 
 .genres ul li {
-    list-style: none;
-    width: 100%;
-    flex: 1;
-    text-wrap: nowrap;
-    box-sizing: content-box;
+	list-style: none;
+	width: 100%;
+	flex: 1;
+	text-wrap: nowrap;
+	box-sizing: content-box;
 }
 
-::-webkit-scrollbar {
-    display: none;
+.genres ::-webkit-scrollbar {
+	display: none;
 }
 
 .genres button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 5px 10px;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #262626;
-    cursor: pointer;
-    transition: border-color 0.25s;
-    box-shadow: -3px 3px 7px -4px rgba(0, 0, 0), 1px -1px 7px -3px rgba(0, 0, 0);
-    margin: 5px 0px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #262626;
+	cursor: pointer;
+	transition: border-color 0.25s;
+	box-shadow: -3px 3px 7px -4px rgba(0, 0, 0), 1px -1px 7px -3px rgba(0, 0, 0);
+	margin: 5px 0px;
 }
 
 .genres button:hover {
-    background-color: #f0283c;
+	background-color: #f0283c;
 }
 
-.genres ul .active button{
-   background-color: #f0283c;
+.genres ul .active button {
+	background-color: #f0283c;
 }
