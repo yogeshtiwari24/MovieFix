@@ -1,0 +1,25 @@
+.movieListSection {
+    max-width: 1380px;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.movieListSection h2 {
+    font-size: 24px;
+    padding: 0.8rem 10px;
+    box-shadow: -3px 3px 7px -4px rgba(0, 0, 0), 1px -1px 7px -3px rgba(0, 0, 0);
+
+    margin: 4rem 0 2rem 0;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #262626;
+}
+
+.movieListSection h2 span {
+    color: #f0283c;
+    font-weight: 600;
+}
+.movieListSection h2:first-child{
+    margin-top: 2rem;
+}

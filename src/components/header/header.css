@@ -1,0 +1,9 @@
+header .top_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+header .top_header img{
+    width: 180px;
+}
