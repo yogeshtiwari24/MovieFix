@@ -35,7 +35,7 @@ MovieFix is a movie information app that displays a list of movies from The Movi
 
 1. Clone the repository:
     ```sh
-    git clone <repository_url>
+     git clone https://github.com/yogeshtiwari24/MovieFix.git
     ```
 2. Navigate to the project directory:
     ```sh
