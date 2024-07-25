@@ -66,10 +66,6 @@ To create a production build of the app:
 - Use the filter UI to select genres and update the movie list.
 - Scroll up and down to load movies from previous and next years respectively.
 
-## Contributing
 
-Feel free to open issues or submit pull requests if you have suggestions for improvements or new features.
 
-## License
 
-This project is licensed under the MIT License.
